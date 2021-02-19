@@ -1,0 +1,470 @@
+/*----------------------------------------Elements de styles communs à toutes les pages----------------------------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(C:\Users\Z\Desktop\Code\Projets\Restaurant la halte des Ducs/visuels/photo-background-body.jpg);
+    background-size: content;
+    background-repeat: no-repeat;
+    background-position: right 0 bottom 0;
+    font-size: 18px;
+}
+
+header {
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.63) 25%, rgba(253, 250, 250, 0)),
+        url(./visuels/photoheader.jpg);
+    background-size: auto;
+    background-position: top;
+    background-attachment: local, fixed;
+    height: 200px;
+    width: 100%;
+}
+
+#logo {
+    position: relative;
+    top: 12%; 
+    display: flex;
+    width: 150px;
+    margin: 0 auto 0 auto;
+
+}
+
+.header-title {
+    color: whitesmoke;
+    font-family: 'GFS Neohellenic', sans-serif;
+    text-align: center;
+}
+
+.navbar {
+    position: sticky;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.836);
+    top: 0;
+    z-index: 3;
+}
+
+.navbar a {
+    padding: 0 10px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.sideandmain {
+    display: flex;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+.sidebar {
+    min-width: 330px;
+    width: 330px;
+    height: auto;
+    background-color:rgba(0, 0, 0, 0.836);
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.horaires {
+    margin: 50px 0px 50px 0;
+    text-align: center;
+}
+
+.contact {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#darkmode-button {
+    position: fixed;
+    z-index: 2;
+    width: 40px;
+    height: auto;
+    bottom: 1%;
+    right: 1%;
+    cursor: pointer;
+}
+
+
+/*----------------------------------------Elements de styles spécifiques à la page "index.html"----------------------------------------*/
+.indexmain {
+    width: 100%;
+    margin: 0 auto 20px auto;
+    font-size: 1.2em;
+}
+
+.indexmain section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    width: 100%;
+}
+
+#lieu {
+    background-color: hsla(187, 40%, 90%, 0.808);
+}
+
+#cuisine {
+    background-color: hsla(40, 40%, 90%, 0.808);
+}
+
+#produits {
+    background-color: hsla(140, 40%, 90%, 0.808);
+}
+
+.fleximg {
+    width: 500px;
+    height: auto;
+    max-width: 500px;
+    margin: 20px;
+}
+
+.flextext {
+    margin: 20px;
+    width: 100%;
+    max-width: 600px;    
+    text-align: justify;
+}
+
+#flextext2 h2 {
+    text-align: right;
+}
+
+
+/*----------------------------------------Elements de styles spécifiques à la page "menu.html"----------------------------------------*/
+
+.menumain {
+    width: 1200px;
+    margin: 20px auto 20px auto;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    margin: 0 auto 30px auto;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . . .";
+  }
+
+.grid-cell {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    height: 300px;
+    width: 300px;
+}
+
+.plats {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+
+.ingredients {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.prix {
+    display: none;
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.grid-cell:hover .ingredients,
+.grid-cell:hover .prix {
+    display: block;
+}
+
+.grid-cell:hover .plats {
+    text-decoration: underline;
+}
+
+
+#soupe {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.400) 25%, rgba(0, 0, 2, 0.400)),
+    url(./visuels/soupe.jpeg);
+}
+
+#salade-cesar {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.400) 25%, rgba(0, 0, 2, 0.400)),
+    url(./visuels/salade-cesar.jpg);
+}
+
+#oeufs {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.400) 25%, rgba(0, 0, 2, 0.400)),
+    url(./visuels/oeufs-mimosa.jpg);
+}
+
+#salade-vegan {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.400) 25%, rgba(0, 0, 2, 0.400)),
+    url(./visuels/salade-vegan.jpg);
+}
+
+#saumon {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.400) 25%, rgba(0, 0, 2, 0.400)),
+    url(./visuels/saumon.jpeg);
+}
+
+#blanquette {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.400) 25%, rgba(0, 0, 2, 0.400)),
+    url(./visuels/blanquette.jpg);
+}
+
+#omelette {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.400) 25%, rgba(0, 0, 2, 0.400)),
+    url(./visuels/omelette.jpg);
+}
+
+#tofu {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.400) 25%, rgba(0, 0, 2, 0.400)),
+    url(./visuels/boulettes-tofu.jpg);
+}
+
+#glace {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.400) 25%, rgba(0, 0, 2, 0.400)),
+    url(./visuels/glace.jpeg);
+}
+
+#tiramisu {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.400) 25%, rgba(0, 0, 2, 0.400)),
+    url(./visuels/tiramisu.jpg);
+}
+
+#fondant {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.400) 25%, rgba(0, 0, 2, 0.400)),
+    url(./visuels/fondant.jpg);
+}
+
+#fruits {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.400) 25%, rgba(0, 0, 2, 0.400)),
+    url(./visuels/salade-de-fruits.jpeg);
+}
+
+/*----------------------------------------Elements de styles spécifiques à la page "fournisseurs.html"----------------------------------------*/
+.fournisseursmain {
+    width: 1000px;
+    margin: 20px auto 20px auto;
+    font-size: 20px;
+}
+
+#schema-produits {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#schema {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 0 auto;
+    z-index: 1;
+}
+
+.js-modal {
+    position: absolute;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: 2;
+}
+
+#link-modal1 {
+    top: 11%;
+    left: 14%;
+}
+
+#link-modal2 {
+    top: 11%;
+    right: 18%;
+}
+
+#link-modal3 {
+    top: 75%;
+    left: 46.5%;
+}
+
+.modal {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.80);
+    z-index: 4;
+}
+
+.modal-wrapper {
+    position: relative;
+    overflow: auto;
+    width: 600px;
+    background-color: hsl(140, 50%, 90%);
+    max-width: calc(100vh - 20px);
+    max-height: calc(100vw - 20px);
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.js-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+button:hover {
+    color: white;
+    background-color: rgba(253, 4, 4, 0.835);
+}
+
+.modal-wrapper h2,
+.modal-wrapper p,
+.modal-wrapper a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+
+/*----------------------------------------Media queries----------------------------------------*/
+@media screen and (max-width: 1650px) {
+    .menumain {
+        width: 600px
+    }
+    .grid {
+        grid-template-areas:
+        ". ."
+        ". .";
+        width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+
+    .menumain h2,
+    .menumain h3 {
+        margin: 0 auto 0 auto;
+    }    
+    .indexmain {
+        width: 100%;
+    }
+
+    .fleximg {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .indexmain section {
+        flex-wrap: wrap;
+    }
+    #flextext2 h2 {
+        text-align: left;
+    }
+    #fleximg1 {
+        order: 2;
+    }
+    #flextext1 {
+        order: 1;
+    }
+    #fleximg3 {
+        order: 2;
+    }
+    #flextext3 {
+        order: 1;
+    }
+    .js-modal {
+        font-size: 2.2vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .menumain {
+        width: 100%;
+    }
+    .grid {
+        grid-template-areas:
+        "."
+        "."
+        "."
+        ".";
+        width: 100%;
+    }
+    .grid div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fournisseursmain {
+        width: 100%;
+    }
+    .js-modal {
+        font-size: 3.8vw;
+    }
+    #link-modal1 {
+        top: 10%;
+        left: 14%;
+    }
+    #link-modal2 {
+        top: 10%;
+        right: 16%;
+    }
+    #link-modal3 {
+        top: 75%;
+        left: 45%;
+    }
+    .sideandmain {
+        display: block;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    .horaires,
+    .contact,
+    .acces {
+        padding: 15px 20px;
+    }
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+    <head>
+        <title>Fournisseurs</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+        <header>
+            <img src="./visuels/logo.png" id="logo">
+            <img src="./Visuels/icone-lune.png" id="darkmode-button">
+        </header>
+
+        <nav class="navbar">
+                <a href="./index.html">Accueil</a><a href="./menu.html">Menu</a><a href="./fournisseurs.html">Fournisseurs</a>
+        </nav>
+        
+        <div class="sideandmain">
+            <main class="fournisseursmain">
+                    <h2>Nos fournisseurs locaux</h2>
+                        <div id="schema-produits">
+                            <img src="./visuels/produits.png" id="schema" width="1000px" height="auto" alt="schema représentant les différents ingrédients">
+                            <a href="#modal1" class="js-modal" id="link-modal1">Fruits et légumes</a>
+                            <section id="modal1" class="modal" aria-hidden="true" role="dialog" aria-labelledby="titre-modal1" style="display: none;">
+                                <div class="modal-wrapper js-modal-stop">
+                                    <button class="js-modal-close" aria-label="close">x</button>
+                                    <img src="visuels/carottes.jpg" width="100%">
+                                    <h2 id="titre-modal1">La ferme des Grands Chênes</h2>
+                                        <p>Ces maraîchers proposent tout au long de l’année une large gamme de fruits et de légumes, issus de l’agriculture biologique.
+                                        Localisés à La virginie (85170 LES LUCS SUR BOULOGNE), ils nous approvisionnent en légumes et en fruits bio et de saison, en directe de la ferme.</p>
+                                    <a href="https://fermedesgrandschenes.fr/" target="blank" class="link">Le site du maraicher</a>
+                                </div>
+                            </section>
+                            <a href="#modal2" class="js-modal" id="link-modal2">Viandes</a>
+                            <section id="modal2" class="modal" aria-hidden="true" role="dialog" aria-labelledby="titre-modal2" style="display: none;">
+                                <div class="modal-wrapper js-modal-stop">
+                                    <button class="js-modal-close" aria-label="close">x</button>
+                                    <img src="visuels/vaches.jpg" width="100%">
+                                    <h2 id="titre-modal2">Natur' Elevage de Saint-Géréon</h2>
+                                        <p>Cet élevage bio met à disposition près d’Ancenis une production locale et des animaux élevés et nourris dans le respect de la nature.
+                                            Ils nous assurent une sélection rigoureuse de viandes de vache et d'agneaux.</p>
+                                    <a href="https://www.natur-elevage-saint-gereon.fr/" target="blank" class="link">Le site du fermier</a>
+                                </div>
+                            </section>
+                            <a href="#modal3" class="js-modal" id="link-modal3">Oeufs</a>
+                            <section id="modal3" class="modal" aria-hidden="true" role="dialog" aria-labelledby="titre-modal3" style="display: none;">
+                                <div class="modal-wrapper js-modal-stop">
+                                    <button class="js-modal-close" aria-label="close">x</button>
+                                    <img src="visuels/poule.jpeg" width="100%">
+                                    <h2 id="titre-modal3">Mouzill'oeuf</h2>
+                                        <p>Elevant des poules fermières, en plein-air et en agriculture biologique, la ferme Mouzill'oeuf produit des œufs de qualité supérieure. 
+                                            Pour cela, plusieurs principes sont suivis à la lettre : 
+                                            respect de l’animal, garantie de son bien-être et diversification de son alimentation.
+                                        </p>
+                                    <a href="http://mouzilloeuf.fr" target="blank" class="link">Le site de l'éleveur</a>
+                                </div>
+                            </section>
+                        </div>
+            </main> 
+            <div class="sidebar">
+                <div class="horaires">
+                    <h2>Horaires</h2>
+                        <p>
+                        Lundi : fermé</br>
+                        Mardi : 12h - 15h / 19h - 22H</br>
+                        Mercredi : 12h - 15h / 19h - 22H</br>
+                        Jeudi : 12h - 15h / 19h - 22H</br>
+                        Vendredi : 12h - 15h / 19h - 22H</br>
+                        Samedi : 12h - 15h / 19h - 23H</br>
+                        Dimanche : 11h - 15h / 19h - 22H</br>
+                        </p>
+                </div> 
+                <div class="contact">
+                    <h2>Contacts</h2>
+                        <p>
+                        M : 06 00 00 00 00</br>
+                        F : 02 28 00 00 00</br>
+                        Mail : haltedesducs@gmail.com</br>
+                        Adresse : 14 rue des Etats, 44000 Nantes</br>
+                        </p>
+                </div>
+                <div class="acces">
+                    <h2>Localisation</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d479.0691759379204!2d-1.5507284383043671!3d47.21610284345849!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805eea4d92111f9%3A0x33a56a05f1147c47!2s14%20Rue%20des%20%C3%89tats%2C%2044000%20Nantes!5e0!3m2!1sen!2sfr!4v1607511126561!5m2!1sen!2sfr" width="280" height="280" padding="10px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+
+
+        </div>
+
+        <footer>
+
+
+
+        </footer>
+
+
+
+
+
+
+        <script src="./app.js"></script>
+    </body>
