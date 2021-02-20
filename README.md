@@ -1,5 +1,5 @@
 # my-very-first-project
-A fictionnal restaurant web site designed during my self learning of front-end web development with HTML, CSS and JavaScript.
+A fictionnal restaurant web site designed during my self-learning of front-end web development with HTML, CSS and JavaScript.
 
 Please note that I am a self-taught beginner developper at this point, and that this project certainely has flaws. 
 Feel free to send me your thoughts, I am here to learn :) 
