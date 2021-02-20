@@ -6,8 +6,8 @@ let cuisine = document.getElementById('cuisine');
 let produits = document.getElementById('produits');
 let modalWrappers = document.getElementsByClassName('modal-wrapper');
 let links = document.getElementsByClassName('link');
-let lienIconeSoleil = "./Visuels/icone-soleil.png";
-let lienIconeLune = "./Visuels/icone-lune.png";
+let lienIconeSoleil = "./visuels/icone-soleil.png";
+let lienIconeLune = "./visuels/icone-lune.png";
 let darkModeActive = false;
 
 
