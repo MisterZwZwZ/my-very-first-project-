@@ -4,6 +4,8 @@ A fictionnal restaurant web site designed during my self-learning of front-end w
 Please note that I am a self-taught beginner developper at this point, and that this project certainely has flaws. 
 Feel free to send me your thoughts, I am here to learn :) 
 
+To check the website : https://misterzwzwz.github.io/my_very_first_project/
+
 ## What is it ?
 Here is the very first website that I have created from scratch and all by myself (no templates where used for the design). 
 
