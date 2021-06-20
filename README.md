@@ -10,7 +10,7 @@ To check the website : https://misterzwzwz.github.io/my_very_first_project/
 Here is the very first website that I have created from scratch and all by myself (no templates were used for the design). 
 
 This project is a showcase website of a fictionnal restaurant called "La halte des Ducs". It contains three html pages to indroduce the restaurant, showcasing the menu and the suppliers.
-Since this project was a practice to me, I tried to implement different CSS and Javascript elements that I recently learned such has : 
+Since this project's goal was to practice, I tried to implement different CSS and Javascript elements that I recently learned such has : 
 
 - CSS flexbox
 - CSS grid
@@ -19,7 +19,7 @@ Since this project was a practice to me, I tried to implement different CSS and 
 
 ## Why ? 
 The goal for me was to put in practice what I was learning about front-end web developement while I was following online courses on codecademy.com.
-I started coding this website at the end of 2020 with HTML and improved it while I was learning CSS and JavaScript.
+I started coding this website at the end of 2020 with HTML only and improved it while I was learning CSS and JavaScript.
 This depository is also a way for me to get started whith Git and GitHub.
 
 ## Author
