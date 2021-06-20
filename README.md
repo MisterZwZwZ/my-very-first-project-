@@ -7,7 +7,7 @@ Feel free to send me your thoughts, I am here to learn :)
 To check the website : https://misterzwzwz.github.io/my_very_first_project/
 
 ## What is it ?
-Here is the very first website that I have created from scratch and all by myself (no templates where used for the design). 
+Here is the very first website that I have created from scratch and all by myself (no templates were used for the design). 
 
 This project is a showcase website of a fictionnal restaurant called "La halte des Ducs". It contains three html pages to indroduce the restaurant, showcasing the menu and the suppliers.
 Since this project was a practice to me, I tried to implement different CSS and Javascript elements that I recently learned such has : 
